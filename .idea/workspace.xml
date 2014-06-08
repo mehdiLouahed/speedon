@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c543ff8-26ce-47dd-a95d-a5360ea4e54c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_donneurs_recompenses" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_recompenses" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_fr-fr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_default_fr-fr" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Association.php" afterPath="$PROJECT_DIR$/app/Model/Association.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/AssociationsController.php" afterPath="$PROJECT_DIR$/app/Controller/AssociationsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/User.php" afterPath="$PROJECT_DIR$/app/Model/User.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Associations/add.ctp" afterPath="$PROJECT_DIR$/app/View/Associations/add.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Associations/edit.ctp" afterPath="$PROJECT_DIR$/app/View/Associations/edit.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/logs/error.log" afterPath="$PROJECT_DIR$/app/tmp/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Associations/index.ctp" afterPath="$PROJECT_DIR$/app/View/Associations/index.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_fr-fr" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_cake_dev_fr-fr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_file_map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" afterPath="$PROJECT_DIR$/app/tmp/cache/persistent/myapp_cake_core_method_cache" />
@@ -22,7 +12,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_dons" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_dons" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_list" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_list" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_users" afterPath="$PROJECT_DIR$/app/tmp/cache/models/myapp_cake_model_default_speedon_users" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Associations/view.ctp" afterPath="$PROJECT_DIR$/app/View/Associations/view.ctp" />
     </list>
     <ignored path="speedon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,10 +63,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UsersController.php" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="UsersController.php" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="3" selection-start="2737" selection-end="2737" vertical-scroll-proportion="1.6542474" vertical-offset="0" max-vertical-offset="1905">
+                <state line="67" column="12" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.58122206" vertical-offset="615" max-vertical-offset="1905">
                   <folding />
                 </state>
               </provider>
@@ -117,7 +106,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="DonneursController.php" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="DonneursController.php" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/Controller/DonneursController.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="80" column="25" selection-start="2630" selection-end="2631" vertical-scroll-proportion="1.8604652" vertical-offset="0" max-vertical-offset="1905">
@@ -422,7 +411,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="3" y="22" width="1440" height="874" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -708,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="891" selection-end="891" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Donneur.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="9" selection-start="439" selection-end="439" vertical-scroll-proportion="-11.875" vertical-offset="45" max-vertical-offset="2220">
@@ -812,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="3" selection-start="2737" selection-end="2737" vertical-scroll-proportion="1.6542474" vertical-offset="0" max-vertical-offset="1905">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Associations/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="24" selection-start="1045" selection-end="1088" vertical-scroll-proportion="-14.791667" vertical-offset="95" max-vertical-offset="1605">
@@ -829,6 +804,20 @@
     <entry file="file://$PROJECT_DIR$/app/Controller/DonneursController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="25" selection-start="2630" selection-end="2631" vertical-scroll-proportion="1.8604652" vertical-offset="0" max-vertical-offset="1905">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="891" selection-end="891" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="600">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="12" selection-start="2406" selection-end="2406" vertical-scroll-proportion="0.58122206" vertical-offset="615" max-vertical-offset="1905">
           <folding />
         </state>
       </provider>
