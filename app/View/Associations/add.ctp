@@ -19,6 +19,12 @@
                             </div>
                         </div>
                         <br />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?php echo $this->Form->input('description_longue', array('label' => false, 'class' => 'col-md-12 form-control', 'placeholder' => 'Description de l\'association')); ?>
+                            </div>
+                        </div>
+                        <br />
 						<div class="row">
                         	<div class="col-md-12">
                            		<?php echo $this->Form->input('mail', array('label' => false, 'class' => 'col-md-12 form-control', 'placeholder' => 'Adresse email')); ?>
@@ -37,7 +43,21 @@
                             </div>
                         </div>
                         <br />
-                        
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?php echo $this->Form->input('coord_bancaire', array('required' => 'required', 'label' => false, 'class' => 'col-md-12 form-control', 'placeholder' => 'Numéro de téléphone')); ?>
+                            </div>
+                        </div>
+                        <br />
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <?php
+                                echo $this->Form->input('photo',
+                                    array('type'=>'file', 'label'=>false, 'class' => 'col-md-12 form-control', 'placeholder' => 'Photo')); ?>
+                            </div>
+                        </div>
+                        <br />
                       </div>
                       <div class="row">
                           <div class="col-md-12 text-center">

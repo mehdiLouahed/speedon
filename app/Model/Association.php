@@ -26,6 +26,13 @@ class Association extends AppModel{
                 'unique' => true, // keepExisting ?
             )
     );
+
+    public $belongsTo = array(
+        'User' => array(
+            'className'     => 'User',
+            'foreignKey' => 'user_id'
+        )
+    );
 }
 
 ?>

@@ -15,6 +15,14 @@ class AssociationsController extends AppController {
 	public function index(){
 		// debug($this->Association->Favori->find('all'));
 		// die();
+        if($this->request->is('post') && !empty($this->request->data['nomAsso'])){
+            $nomAsso = $this->request->data['nomAsso'];
+            $assos = $this->Association->find('all', array( 'conditions' => array("Association.nom_asso LIKE" => "%$nomAsso%" )));
+        }else{
+            $assos = $this->Association->find('all');
+        }
+
+        $this->set('assos', $assos);
 	}
 	
 	public function view($id = null){
@@ -38,6 +46,28 @@ class AssociationsController extends AppController {
             }
         }
     }
+
+    public function edit($id = null){
+
+        $association = $this->Association->findById($id);
+        if($this->request->is(array('post', 'put'))){
+            $this->Association->id = $id;
+
+            if($this->Association->save($this->request->data)){
+                $this->Session->setFlash(__('L\'association a été modifié'));
+                //return $this->redirect(array('action' => 'index'));
+                return $this->redirect(array('controller'=>'associations','action' => 'view',$id));
+            }
+            $this->Session->setFlash(__('Impossible de modifier l\'association'));
+        }
+
+        if(!$this->request->data){
+            $this->request->data = $association;
+        }
+
+    }
+
+
 	
 }
 
